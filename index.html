@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body id="main">
+
+    <!-- NavigationBar -->
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">{{ brand }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">{{ home }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">{{ services }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trial">{{ trial }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">{{ team }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">{{ contact }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">{{ pricing }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">{{ user }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NavigationBar -->
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Home -->
+    <div id="home">
+        <!-- KeyPoints -->
+        <div id="homeKeyPoints" class="main">
+            <div class="text-center">
+                <p>MYVA360 VIRTUAL ASSISTANT AGENCY</p>
+                <h1>Hire Ultra-Talented Virtual Assistant <br>Without the Hassle</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><span :class="listicon"></span>Free up your time for things that are important to you</li>
+                        <li><span :class="listicon"></span>Pay only for the hours you need, at a low cost</li>
+                        <li><span :class="listicon"></span>No overheads, no long-term commitments, no hassles</li>
+                        <li><span :class="listicon"></span>Get a 4-hour free trial you can use within 7 days</li>
+                        <li><span :class="listicon"></span>14-day money-back guarantee</li>
+                    </ul>
+                    <div class="buttondiv">
+                        <button class="btn btn-primary">&nbsp;&nbsp;Get Started&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <iframe :src="iframe"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- KeyPoints -->
+        <!-- KeyPoints Advance -->
+        <div class="main2">
+            <h1>Focus on Core Tasks That Grow Your Business. Outsource the Rest.</h1>
+            <div class="row">
+                <div class="col-md-5">
+                    <ul>
+                        <li><span :class="listicon"></span>Choose a virtual assistant that suits your
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;needs</li>
+                        <li><span :class="listicon"></span>Professional, efficient and reliable service,
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whenever you need it</li>
+                        <li><span :class="listicon"></span>Different time zones and languages available</li>
+                        <li><span :class="listicon"></span>Delegate unlimited tasks to a dedicated and
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qualified assistant</li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <p>
+                        MYVA360 provides on-going, on-demand support for businesses of all sizes. Let us know your
+                        requirements, and get matched with a dedicated virtual assistant with a wide range of skills.
+                    </p>
+                    <p>
+                        MYVA360 provides on-going, on-demand support for businesses of all sizes. Let us know your
+                        requirements, and get matched with a dedicated virtual assistant with a wide range of skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- KeyPoints Advance -->
+        <hr>
+    </div>
+    <!-- Home -->
+
+    <!-- Services -->
+    <div id="services">
+        <h1>What Can You Outsource to a Virtual<br> Assistant?</h1>
+        <p>We will handle all of your time-consuming tasks and correspondence with important people.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-briefcase"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Administrative Work</h5>
+                            <p>
+                                Outsource administrative tasks to your virtual assistant to ensure that the rest of your
+                                staff has adequate support, so they can focus on business-growing activities.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-calendar-check"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Calendar Management</h5>
+                            <p>
+                                Never miss an important meeting again. Your virtual assistant will manage your time, set
+                                up
+                                reminders, make sure you are never double booked, and create gaps in your calendar when
+                                necessary.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-paint-brush"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Graphic Design</h5>
+                            <p>
+                                MYVA360 virtual assistants specializing in graphic design can carry out tasks such as
+                                developing concepts, illustrations, and creating visuals for websites or ads at a scale.
+                                No
+                                need to hire another employee.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-industry"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Lead Generation </h5>
+                            <p>
+                                Rely on your virtual assistant to support your lead generation efforts. Delegate
+                                repetitive
+                                tasks such as researching prospects, database management, email marketing, and more to
+                                an
+                                experienced virtual assistant.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-user-ninja"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Personal Assistance</h5>
+                            <p>
+                                Let your VA take care of tasks like research, travel booking, sending gifts or anything
+                                else
+                                that you’ve been putting off.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-share-alt"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Social Media Management</h5>
+                            <p>
+                                Let your virtual assistant grow and manage your social media accounts, and run your ad
+                                campaigns, while you focus on core business activities.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+
+
+    <!-- HowItWorks -->
+    <div id="trial">
+        <h1>How It Works</h1>
+        <p>Work smarter with MYVA360. We believe in cultivating great relationships with our clients.</p>
+        <div class="row">
+            <div class="col-md-3">
+                <span class="fa fa-phone-volume"></span>
+                <br>
+                <h5>Discovery Call</h5>
+                <p>Schedule a call with our account manager to discuss your needs and tasks you wish to outsource.</p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa fa-hands-helping"></span>
+                <br>
+                <h5>Meet Your Assistant</h5>
+                <p>We’ll match you with one of our virtual assistants as well as a backup assistant. </p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa fa-power-off"></span>
+                <br>
+                <h5>Kickoff Program</h5>
+                <p>We will work together to ensure that you get the most out of your virtual assistant and help the
+                    onboarding process.</p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa fa-signal"></span>
+                <h5>Start Delegating</h5>
+                <p>You are now ready to free up your schedule and start delegating to your new virtual assistants.</p>
+            </div>
+        </div>
+        <br>
+        <h5>Yes, I want to free up my schedule</h5>
+        <br>
+        <button class="btn btn-primary">&nbsp;&nbsp;Get A Free Trial&nbsp;&nbsp;</button>
+        <p class="small"><span class="fa fa-gift text-primary"></span>&nbsp;BONUS: GET 5% OFF YOUR FIRST MONTH</p>
+    </div>
+    <!-- HowItWorks -->
+
+
+    <!-- Our Team -->
+    <div id="team">
+        <h1>Meet The Team</h1>
+        <p>Meet the team of professionals in the field</p>
+        <div class="main row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="image">
+                        <img src="http://cdn.thinglink.me/api/image/347151190540156928/1024/10/scaletowidth/0/0/1/1/false/true?wait=true"
+                            alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4>Shaheen</h4>
+                        <p>CEO</p>
+                        <button class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+            </div><div class="col-md-3">
+                <div class="card">
+                    <div class="image">
+                        <img src="http://cdn.thinglink.me/api/image/347151190540156928/1024/10/scaletowidth/0/0/1/1/false/true?wait=true"
+                            alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4>Shaheen</h4>
+                        <p>CEO</p>
+                        <button class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="image">
+                        <img src="http://cdn.thinglink.me/api/image/347151190540156928/1024/10/scaletowidth/0/0/1/1/false/true?wait=true"
+                            alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4>Shaheen</h4>
+                        <p>CEO</p>
+                        <button class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="image">
+                        <img src="http://cdn.thinglink.me/api/image/347151190540156928/1024/10/scaletowidth/0/0/1/1/false/true?wait=true"
+                            alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4>Shaheen</h4>
+                        <p>CEO</p>
+                        <button class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Team -->
+
+
+    <!-- Pricing -->
+    <div id="price">
+        <br>
+        <h1>Simple, Straightforward Pricing</h1>
+        <p>No hidden fees. What you see is what you pay.</p>
+        <h5>starting at <span style="font-size:30px">$360/mon.</span></h5>
+        <div class="row">
+            <ul class="col-md-6">
+                <li><span class="fa fa-check"></span> Dedicated Virtual Assistant</li>
+                <li><span class="fa fa-check"></span> Dedicated Account Manager</li>
+                <li><span class="fa fa-check"></span> Backup Virtual Assistant</li>
+                <li><span class="fa fa-check"></span> Money-Back Guarantee</li>
+            </ul>
+            <ul class="col-md-6">
+                <li><span class="fa fa-check"></span> Flexible Work Hours</li>
+                <li><span class="fa fa-check"></span> Quick Setup</li>
+                <li><span class="fa fa-check"></span> Free Trial</li>
+                <li><span class="fa fa-check"></span> Access to Wide Pool of Talent</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Pricing -->
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <h1></h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="static/images/cont1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form">
+                    <input type="text" name="" class="form-control" id="" placeholder="Full Name">
+                    <input type="text" name="" class="form-control" id="" placeholder="Email / Mobile">
+                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Messege"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/65fd6c747e.js" crossorigin="anonymous"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/vue3.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
